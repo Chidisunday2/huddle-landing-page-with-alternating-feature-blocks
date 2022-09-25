@@ -24,7 +24,7 @@ header{
 }
 
 .container{
-    padding: 1rem 4rem;
+    padding: 1rem 10rem;
 }
 
 header .navbar{
@@ -51,12 +51,18 @@ h1{
 
 .head-img {
     width: 40rem;
-   
+    margin-left: 5rem;
 }
 .head-description{
     width: 35rem;
     height: auto;
     /* padding-left: 4rem; */
+}
+
+.head-section{
+    display: flex;
+    justify-content: center;
+
 }
 
 .head-description *{
